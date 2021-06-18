@@ -1,0 +1,34 @@
+{
+  "name": "ahj-diploma-backend",
+  "version": "1.0.0",
+  "description": "**Backend: https://maryniki-ahj-diploma.herokuapp.com/**",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever ./src/js/server.js",
+    "watch": "forever -w ./src/js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikiforovamaria/ahj-diploma-backend.git"
+  },
+  "author": "Maria Nikiforova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikiforovamaria/ahj-diploma-backend/issues"
+  },
+  "homepage": "https://github.com/nikiforovamaria/ahj-diploma-backend#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "forever": "^4.0.1",
+    "http": "0.0.1-security",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "node-fetch": "^2.6.1",
+    "uuid": "^8.3.2",
+    "ws": "^7.5.0"
+  }
+}
